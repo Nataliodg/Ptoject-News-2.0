@@ -57,7 +57,7 @@ ul {
 }
 
 .nav-main ul li a:hover {
-    border-bottom: solid 3px darkred;
+    font-size: 18px;
 }
 
 .nav-main ul.nav-menu {
@@ -99,10 +99,10 @@ hr {
     border-radius: 7px;
     font-weight: bold;
     padding: 10px 20px;
-    background-color: darkred;
+    background-color: white;
     color: black;
     font-size: 15px;
-    border: solid 2px black;
+    border: solid 2px white;
     margin: 10px 0;
 }
 
@@ -122,6 +122,8 @@ hr {
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
     margin: 10px 0;
+    text-align: center;
+
 }
 
 .news-card img{
@@ -130,8 +132,9 @@ hr {
 }
 
 .news-card h3{
-    font-size: 20px;
+    font-size: 22px;
     margin: 10px 0;
+    border-bottom: solid 3px white;
 }
 
 .news-card a{
@@ -143,7 +146,7 @@ hr {
 }
 
 .news-card a:hover{
-    text-decoration: underline;
+    font-size: 17px;
 }
 
 /* BANNER 1 */
@@ -220,7 +223,8 @@ hr {
 /* FOOTER LINKS */
 
 .footer-links {
-    background: #424949;
+    background: rgb(9,9,9);
+    background: linear-gradient(132deg, rgba(9,9,9,1) 0%, rgba(38,20,24,1) 0%, rgba(28,21,22,1) 41%, rgba(42,33,34,1) 78%, rgba(73,53,57,1) 100%, rgba(73,45,52,1) 100%, rgba(71,53,56,1) 100%, rgba(75,5,14,1) 100%);
     padding: 35px 0;
     font-size: 12px;
 }
@@ -248,10 +252,6 @@ hr {
 }
 
 
-.footer-container ul li a:hover {
-    color: darkred;
-}
-
 .footer {
     background-color: black;
     font-size: 12px;
@@ -260,7 +260,7 @@ hr {
 }
 
 .footer a:hover {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 @media (max-width: 800px){
